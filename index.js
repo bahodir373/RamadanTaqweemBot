@@ -9,8 +9,8 @@ const duaBaseUrl = 'https://taqveem-with-swagger-production.up.railway.app/api/d
 let messageId;
 
 const getTodaySerial = () => {
-  const today = new Date('2025-02-28');
-  const startOfRamadan = new Date('2025-02-28');
+  const today = new Date('2025-03-01');
+  const startOfRamadan = new Date('2025-03-01');
   return Math.ceil((today - startOfRamadan) / (1000 * 60 * 60 * 24)) + 1;
 };
 
